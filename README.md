@@ -28,6 +28,12 @@ Run manually as a background process
 mongod --config /usr/local/etc/mongod.conf --fork
 ```
 
+Stop with
+
+```bash
+pkill mongod
+```
+
 or run as a MacOS service:
 
 ```bash
